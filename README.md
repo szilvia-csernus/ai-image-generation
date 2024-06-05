@@ -12,8 +12,8 @@ Prompt:
 
 |            image 1 - 2             |            image 3 - 4             |            image 5 - 6             |
 | :--------------------------------: | :--------------------------------: | :--------------------------------: |
-| ![skijoer1](./images/skijoer.png)  | ![skijoer2](./images/skijoer2.png) | ![skijoer3](./images/skijoer3.png) |
-| ![skijoer4](./images/skijoer4.png) | ![skijoer5](./images/skijoer5.png) | ![skijoer6](./images/skijoer6.png) |
+| ![skijoer1](./images/skijoer.png)  | ![skijoer3](./images/skijoer3.png) | ![skijoer5](./images/skijoer5.png) |
+| ![skijoer2](./images/skijoer2.png) | ![skijoer4](./images/skijoer4.png) | ![skijoer6](./images/skijoer6.png) |
 
 ## Image Variations
 
@@ -27,13 +27,20 @@ I created variation images with OpenAI's `DALL-E 2` for the last image crated pr
 
 ## Image Edits
 
-I tried to remove the skis from under the horse with `DALL-E 2`'s `edit` functionality. (Edits are only available for `DALL-E 2`)
+I edited the picture with `DALL-E 2`'s `edit` functionality. (Edits are only available for `DALL-E 2`)
 
-> The edited image is finally true to the original prompt.
+> For the first edit, I tried to remove the skis from under the horse.
 
 |              original picture              |                     mask                      |                   edited picture                    |
 | :----------------------------------------: | :-------------------------------------------: | :-------------------------------------------------: |
 | ![original-picture](./images/skijoer6.png) | ![masked-picture](./images/skijoer6-mask.png) | ![edited-picture](./image-edits/skijoer-edit-1.png) |
+
+
+> For the second time, I tried adding visible skis under the person. The last picture is finally true to the original prompt.
+
+|              original picture              |                     mask                      |                   final picture                    |
+| :----------------------------------------: | :-------------------------------------------: | :-------------------------------------------------: |
+| ![original-picture2](./image-edits/skijoer-edit-1.png) | ![masked-picture2](./image-edits/skijoer-edit-1-mask.png) | ![edited-picture](./image-edits/skijoer-edit-4.png) |
 
 ---
 
