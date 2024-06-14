@@ -66,18 +66,22 @@ I edited the picture with `DALL-E 2`'s `edit` functionality. (Edits are only ava
 
    Windows: `venv\Scripts\activate`
 
-4. Install the python dependencies:
+4. Select interpreter in VSCode:
+
+   (on Mac) Cmd + Shift + P  ---> Select Interpreter ---> Select the created venv environment
+
+5. Install the python dependencies:
 
    `pip install -r requirements.txt`
 
-5. Create an `.env` file in the root folder and add your project's API key:
+6. Create an `.env` file in the root folder and add your project's API key:
 
    ```
    OPENAI_API_KEY=your-unique-opanai-project-key
 
    ```
 
-6. Run the Jupyter Notebook:
+7. Run the Jupyter Notebook:
 
    - `jupyter notebook` command will open the Notebook in the browser.
    - The DALL-E-3 image generation code is in the `openai-dall-e.ipynb` file.
